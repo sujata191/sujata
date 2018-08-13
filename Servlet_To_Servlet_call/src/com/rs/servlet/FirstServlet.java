@@ -33,6 +33,7 @@ public class FirstServlet extends HttpServlet {
 
 		RequestDispatcher requestDispatcher = request.getRequestDispatcher("SeondServlet");
 		requestDispatcher.forward(request, response);
+		System.out.println("the project is edited to view further");
 	}
 
 }
